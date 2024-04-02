@@ -26,31 +26,77 @@
   <body>
     <header class="page-header">
       <div class="container header-container">
-        <nav class="header-nav">
+        <div class="mobile-header">
           <a href="./index.html" class="logo"
             >Web<span class="web">Studio</span>
           </a>
-          <ul class="page-nav">
-            <li><a href="./index.html" class="nav current">Studio</a></li>
-            <li><a href="" class="nav">Portfolio</a></li>
-            <li><a href="" class="nav">Contacts</a></li>
-          </ul>
-        </nav>
-
-        <address class="address">
-          <ul class="page-contacts">
-            <li class="li-adress">
-              <a href="mailto:info@devstudio.com" class="contact"
-                >info@devstudio.com</a
-              >
+<button type="button" class="button-mobile">
+  <svg class="icon-button-mobile" width="" height="">
+    <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+  </svg>
+</button>
+</div>
+      <div class="mobile-menu is-open">
+        <div class="menu">
+          <button type="button" class="button-close-mobile">
+            <svg class="icon-modal" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <div class="nav-mobile">
+          <nav class="header-nav">
+            <ul class="page-nav">
+              <li><a href="./index.html" class="nav current">Studio</a></li>
+              <li><a href="" class="nav">Portfolio</a></li>
+              <li><a href="" class="nav">Contacts</a></li>
+            </ul>
+          </nav>
+          <address class="address">
+            <ul class="page-contacts">
+              <li class="li-adress">
+                <a href="mailto:info@devstudio.com" class="contact"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="li-adress">
+                <a href="tel:+110001111111" class="contact"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          </div>
+          <ul class="icons-div-footer">
+            <li class="li-icons-footer">
+              <a href="/" class="link-icon-footer">
+                <svg class="icon-team" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="li-adress">
-              <a href="tel:+110001111111" class="contact"
-                >+11 (000) 111-11-11</a
-              >
+            <li class="li-icons-footer">
+              <a href="/" class="link-icon-footer">
+                <svg class="icon-team" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="li-icons-footer">
+              <a href="/" class="link-icon-footer">
+                <svg class="icon-team" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="li-icons-footer">
+              <a href="/" class="link-icon-footer">
+                <svg class="icon-team" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </header>
 
