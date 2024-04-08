@@ -794,6 +794,20 @@ h1 {
             background-color: #fcfcfc;
             cursor: pointer;
                  }
+    .modal {
+            width: 288px;
+            min-height: 623px;
+            padding: 72px 24px 16px 16px;
+                }
+     .check-text {
+             display: flex;
+             align-items: center;
+                }
+                .check {
+                    flex-shrink: 0;
+                }
+                .span-mob {
+                margin-left: 8px;}
 }
 
 
