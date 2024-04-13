@@ -659,20 +659,49 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
             position: relative;
          background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/Dark-bg-x1.jpg);
+        url(../images/dark-bg-mob-x1.jpg);
          background-position: center;
          background-repeat: no-repeat;
          background-size: cover;
             }
 
-            @media (min-device-pixel-ratio: 2), 
-            (min-resolution: 192dpi), 
-            (min-resolution: 2dppx) {
-            .first-section {
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                    rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-2x.jpg)
-            }
-            }
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .first-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url(../images/dark-bg-mob-x2.jpg);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .first-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url(../images/dark-bg-pl-x1.jpg);
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+(min-resolution: 192dpi) and (min-width: 768px) {
+    .first-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url(../images/dark-bg-pl-2x.jpg);
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .first-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url(../images/people-office-x1.jpg);
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
+(min-resolution: 192dpi) and (min-width: 1158px) {
+    .first-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url(../images/people-office-x2.jpg)
+    }
+}
 
 .container {
    max-width: 320px;
